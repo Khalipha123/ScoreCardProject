@@ -1,0 +1,99 @@
+body{
+    background-image: url("pic1.png");
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    filter: brightness(40%);
+    backdrop-filter: blur(5px);
+}
+h1{
+    color: #362105;
+    position: relative;
+    left: 30px;
+    font-size: 60px;
+    margin: 0;
+    display: inline-block;
+}
+h1 span{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+nav {
+    display: inline-block;
+    position: absolute;
+    
+}
+nav li{
+    display: inline-block;
+    padding: 6px 50px;
+    font-size: 20px;
+    white-space: nowrap;
+    margin: 0;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #1d1b1b;
+}
+nav li a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+nav li a:focus{
+    text-decoration: underline;
+    color: #09035c;
+}
+section{
+    text-align: center;
+    top: 40px;
+    position: relative;
+    padding: 40px;
+}
+form{
+    text-align: center;
+    background-color: #44305257;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    border-radius: 38px;
+    margin: 0;
+}
+.login{
+    color: #362105;
+    font-size: 30px;
+    padding: 0 0;
+}
+input{
+    padding: 15px 20px;
+    margin: 5px 0;
+    font-size: 19px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    border-radius: 48px;
+}
+input:focus{
+    border: 5px dashed #2e1608 ;
+    outline: none;
+}
+input:valid{
+    border:5px dashed green;
+}
+form p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #02024d;
+}
+form p a:hover{
+    text-decoration: underline;
+    position: relative;
+    left: 4px;
+}
+.t_c a{
+    padding: 5px;
+}
+@media  screen and(max-width=658px){
+section{
+    top:px; 
+}
+}
